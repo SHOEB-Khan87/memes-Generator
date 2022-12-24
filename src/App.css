@@ -1,0 +1,22 @@
+/* .select{
+    margin-top: 50px;
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+} */
+
+a{
+    text-decoration:none;
+}
+ .selected{
+    text-align:center;
+} 
+.select{
+   width: 100%;
+border-radius: 10px;
+margin-bottom: 20px;
+margin-top: 30px;
+}
