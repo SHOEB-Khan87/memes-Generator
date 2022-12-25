@@ -16,7 +16,40 @@ a{
 } 
 .select{
    width: 100%;
-border-radius: 10px;
+ border-radius: 10px;
 margin-bottom: 20px;
-margin-top: 30px;
+margin-top: 30px; 
+}
+h4{
+    margin-bottom: 50px;
+}
+body{
+background-image: url("../src/component/gotit.png");
+
+background-size: cover;
+color:white;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.check{
+ background-color: white;
+    border-radius: 10px;
+   
+}
+#demo-simple-select-label{
+    color:black; 
+}
+.TextField{
+display: flex;
+justify-content: center;
+
+}
+#fade-button{
+    background-color: lightgray;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.width{
+    width: 100%;
 }
