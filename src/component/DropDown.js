@@ -40,11 +40,12 @@ function DropDown() {
       setHeight(height)
       setWidth(width)
       if (height >= 900) {
-        setText(130)
-      } else {
-        setText(25)
+        setText(10)
+      } else if(height >=700){
+        setText(8)
+      }else{
+        setText(5)
       }
-
     }
 
 
@@ -55,7 +56,7 @@ function DropDown() {
       const ctx = canvas.current.getContext("2d")
       console.log(image, 'image')
       ctx.drawImage(image, 0, 0);
-      ctx.font = text + "px sans-serif";
+      ctx.font = text + "vh sans-serif";
       ctx.fillStyle = color;
       ctx.textAlign = "center";
       ctx.fillText(topText, width / 2, height / 6)
